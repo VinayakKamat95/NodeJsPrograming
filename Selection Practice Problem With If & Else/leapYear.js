@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')();
 
-const year = prompt('Year: ');
-console.log('Input Year', Number(year));
+const year = Number(prompt('Year: '));
+console.log('Input Year', year);
 
 if ((year % 4 == 0) && (year % 100 != 0)) {
     result = "leap year";

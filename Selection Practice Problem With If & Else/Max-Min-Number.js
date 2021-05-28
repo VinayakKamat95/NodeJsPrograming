@@ -37,7 +37,7 @@ if (num4 > max) {
     max = num4;
 } else {
     if (num4 < min) {
-        min = num5;
+        min = num4;
     }
 }
 
